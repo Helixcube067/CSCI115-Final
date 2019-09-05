@@ -1,0 +1,264 @@
+html {
+	width: 100%;
+}
+
+body {
+	padding: 10px;
+	background-color: #4FD5D6;
+	font-family: arial, tahoma, sans-sariff;
+}
+
+header {
+	height: 75px;
+	background-image: url(Pictures/logo2.jpg);
+}
+
+#logo {
+	width: 300px;
+	float: left;
+}
+
+/*german shepherd base*/
+#brond {
+	background-color: #663300;
+}
+
+/*german shepherd compliment*/
+#wrapper {
+	width: 80%;
+	background-color: #CC9900;
+	padding: 10px;
+	min-width: 960px;
+	clear: both;
+	margin: auto;
+}
+
+/*Home color compliment*/
+#indexer {
+	background-color: #FF717E;
+	padding: 10px;
+	min-width: 960px;
+	clear: both;
+	margin: auto;
+	width: 80%;
+}
+
+#subMenu {
+	float: left;
+	width: 200px;
+	font-size: 25px;
+	position: fixed;
+}
+
+#subMenu ul a {
+	text-decoration: none;
+}
+
+#subMenu ul {
+	list-style-type: none;
+}
+
+#floatCol {
+	float: right;
+	width: 700px;
+	padding: 10px;
+}	
+
+#ausshep a:hover {
+	background-color: #097054;
+}
+
+#ausbod {
+	background-color: #097054;
+	padding: 10px;
+	min-width: 960px;
+	clear: both;
+	margin: auto;
+	width: 80%;
+}
+
+#auscom {
+	padding: 10px;
+	background: #FFDE00;
+}
+#greatDane a:hover {
+	background-color: #336699;
+}
+
+#danebod {
+	background-color: #666666;
+	padding: 10px;
+	min-width: 960px;
+	clear: both;
+	margin: auto;
+	width: 80%;
+}
+
+#danecom {
+	background-color: #336699;
+	padding: 10px;
+}
+
+#bernese a:hover {
+	background-color: #E18942;
+}
+
+#bernbod {
+	background-color: #B95835;
+	padding: 10px;
+	min-width: 960px;
+	clear: both;
+	margin: auto;
+	width: 80%;
+}
+	
+#berncom {
+	background-color: #E18942;
+	padding: 10px;
+}
+
+#ana {
+	background-color: #AC8C18;
+	padding: 10px;
+}
+
+#anabod {
+	width: 80%;
+	background-color: #76988F;
+	padding: 10px;
+	min-width: 960px;
+	clear: both;
+	margin: auto;
+}
+
+#huska {
+	padding: 10px;
+	background-color: #333366;
+}	
+
+#husk a:hover {
+	background-color: #CCFFFF;
+}
+
+#husku {
+	background-color: #CCFFFF;
+	padding: 10px;
+	min-width: 960px;
+	clear: both;
+	margin: auto;
+	width: 80%;
+}
+
+nav {
+	width: 100px;
+	float: right;
+	padding: 10px;
+	margin-right: 70px;
+}
+
+#grmShep a:hover {
+	background-color: #CC6600;
+}
+
+#anatolian a:hover {
+	background-color: #AC8C18;
+}
+
+#leftCol {
+	float: left;
+	min-height: 350px;
+	padding: 10px;
+	width: 310px;
+}
+
+#rightCol {
+	min-height: 350px;
+	float: right;
+	width: 310px;
+	padding: 10px;
+}
+
+#rightCol img {
+	padding: 5px;
+}
+
+#leftCol img {
+	padding: 5px;
+}
+
+#centerCol {
+	min-height: 350px;
+	margin: 0 320px 0 400px;
+	padding: 10px;
+	width: 400px;
+}
+
+#home a:hover {
+	background-color: #4FD5D6;
+}
+
+.dropbtn {
+	background-color: #4caf50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: pink;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: gold;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+table {
+	vertical-align: center;
+}
+
+th {
+	width: 250px;
+}
+
+.ProsAndCons {
+	background-color: linen;
+	width: 600px;
+	border: 3px solid black;
+	border-collapse: collapse;
+	clear: both;
+}
+
+.ProsAndCons th, td{
+	border: 1px solid black;
+	padding: 3px;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	padding: 10px;
+	height: 50px;
+}
